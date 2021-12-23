@@ -1,0 +1,29 @@
+{
+    "name": "mrdat/demo",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Dat\\Demo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dat",
+            "email": "mynameisdat6@gmail.com",
+            "homepage": "https://truongvandat.tk"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dat\\Demo\\DemoServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "version": "1.0.0",
+    "require-dev": {
+
+    }
+}
